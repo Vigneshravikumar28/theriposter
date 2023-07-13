@@ -1,0 +1,47 @@
+body{
+    background: url("./poster\ bacgrount.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* #heading
+{
+    color: black;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    
+} */
+
+#content
+{
+    display:flex;
+    background: rgba(0,0,0,0.7);
+    height: 500px;
+    width:1000px;
+    margin: auto;
+    margin-top: 150px;
+    justify-content:space-between;
+}
+
+#title
+{
+    display: flex;
+    background: rgba(0,0,0,0.7);
+    height: 50px;
+    width:1000px;
+    margin: auto;
+    justify-content: space-around;
+}
+img
+{
+    height: 110px;
+    width: 120px;
+    border: 3px solid rgb(235, 241, 230);
+    /* border-radius: 50%; */
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    
+    margin-top: 20%;
+    margin-left: 20px;
+}
